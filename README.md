@@ -25,11 +25,11 @@ This repository documents my journey through the Mthree training program to beco
 
 The training program covers a wide range of topics essential for an SRE, including but not limited to:
 
- -1
- -2
- -3
- -4
- -5
+ - 1
+ - 2
+ - 3
+ - 4
+ - 5
 
 ## Projects
 
