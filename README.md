@@ -7,15 +7,12 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
 - [Introduction](#introduction)
 - [Course Overview](#course-overview)
 - [Projects](#projects)
-  - [Project 1: Monitoring and Alerting](#project-1-monitoring-and-alerting)
-  - [Project 2: Automation](#project-2-automation)
-  - [Project 3: CI/CD Pipeline](#project-3-cicd-pipeline)
+  - [Project 1: ](#project-1)
+  - [Project 2: ](#project-2)
+  - [Project 3: ](#project-3)
 - [Exercises](#exercises)
 - [Notes](#notes)
 - [Resources](#resources)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
