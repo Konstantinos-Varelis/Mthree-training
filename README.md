@@ -69,14 +69,20 @@ This activity involves creating a GitHub Personal Access Token (PAT) to securely
 - No specific files for this activity.
 
 
-
 ### Activity: AWS EC2 Setup
 
-**Description:** 
+**Description:**
+This activity involves setting up an AWS EC2 instance, which is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the AWS infrastructure. This includes steps to launch, configure, and connect to an EC2 instance. Detailed instructions can be found in the [AWS EC2 documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
 **Key Features:**
+- [Launching an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
+- Configuring security groups and key pairs.
+- Connecting to the instance using SSH.
+- Basic management and monitoring of the instance.
 
 **Files:**
+- No specific files for this activity.
+
 
 ### Activity: Linux Exercises: Basic Commands
 
