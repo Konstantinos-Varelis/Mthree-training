@@ -118,11 +118,65 @@ Complete the following activities using a Linux interface, using skills covered 
 
 ### Activity: Linux Tools & Navigation
 
-**Description:** 
+**Description:**
+This activity involves practising basic navigation commands in a Linux system. It includes tasks such as checking the current version of Linux, navigating through the file system, and using commands to list files and view command history. Detailed explanations and examples can be found in the [Linux Tools documentation](https://linux.die.net/man/).
+
+Complete the following activities using a Linux interface:
+
+1. Check the current version of Linux:
+    ```bash
+    uname -a
+    ```
+2. Check your current location in the file structure:
+    ```bash
+    pwd
+    ```
+3. Move up one folder:
+    ```bash
+    cd ..
+    ```
+4. Check your location again:
+    ```bash
+    pwd
+    ```
+5. List all the files with details. Try both of these commands to see how they are different:
+    ```bash
+    ls -l
+    ls -ltr
+    ```
+6. Change the directory to the root folder:
+    ```bash
+    cd /
+    ```
+7. Check your location again:
+    ```bash
+    pwd
+    ```
+8. List all files in the current directory, sorted with the most recently-changed file at the bottom of the screen:
+    ```bash
+    ls -ltr
+    ```
+9. Change back to your home directory:
+    ```bash
+    cd ~
+    ```
+10. List all files, including the hidden files:
+    ```bash
+    ls -ltra
+    ```
+11. Run the history command:
+    ```bash
+    history
+    ```
 
 **Key Features:**
+- Practising basic Linux navigation commands.
+- Understanding how to list and manage files.
+- Using commands to view system information and command history.
 
 **Files:**
+- [Activity - Linux Tools & Navigation](Activities/Activity%20-%20Linux%20Tools%20&%20Navigation.md)
+
 
 ### Activity: Files and Permissions
 
