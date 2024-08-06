@@ -58,15 +58,16 @@ This activity involves [creating a personal GitHub repository](https://docs.gith
 ### Activity: Create a GitHub Personal Access Token
 
 **Description:**
-This activity involves creating a GitHub Personal Access Token (PAT) to securely authenticate and authorize access to your GitHub account when performing operations from the command line or other tools. This is crucial for tasks that require elevated permissions, such as pushing changes to repositories or accessing private repositories.
+This activity involves creating a GitHub Personal Access Token (PAT) to securely authenticate and authorize access to your GitHub account when performing operations from the command line or other tools. This is crucial for tasks that require elevated permissions, such as pushing changes to repositories or accessing private repositories. Detailed steps can be found in the [GitHub documentation](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
 
 **Key Features:**
-- Generating a personal access token.
+- [Generating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
 - Configuring the token for use in command-line operations.
 - Understanding the scope and permissions associated with the token.
 
 **Files:**
 - No specific files for this activity.
+
 
 
 ### Activity: AWS EC2 Setup
