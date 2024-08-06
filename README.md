@@ -43,18 +43,30 @@ The training program covers a wide range of topics essential for an SRE, includi
 ### Activity: Set up a Personal GitHub Repository
 
 **Description:** 
+This activity involves creating a personal GitHub repository to store and manage your code and projects. Setting up a GitHub repository is a fundamental step for version control and collaboration in software development. This activity covers the steps to create a repository, initialize it with a README file, and make the first commit.
 
 **Key Features:**
+- Creation of a new GitHub repository.
+- Initialization of the repository with a README file.
+- Making the first commit to the repository.
+- Basic understanding of version control using Git and GitHub.
 
-**Files:**
+**Files:** 
+- README.md (this file)
 
 ### Activity: Create a GitHub Personal Access Token
 
-**Description:** 
+**Description:**
+This activity involves creating a GitHub Personal Access Token (PAT) to securely authenticate and authorize access to your GitHub account when performing operations from the command line or other tools. This is crucial for tasks that require elevated permissions, such as pushing changes to repositories or accessing private repositories.
 
 **Key Features:**
+- Generating a personal access token.
+- Configuring the token for use in command-line operations.
+- Understanding the scope and permissions associated with the token.
 
 **Files:**
+- No specific files for this activity.
+
 
 ### Activity: AWS EC2 Setup
 
