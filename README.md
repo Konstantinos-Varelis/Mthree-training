@@ -310,11 +310,17 @@ This activity focuses on managing files and directories in a Linux environment a
 
 ### Activity: Editing Files in Linux
 
-**Description:** 
+**Description:**
+In this activity, you will practise using `vi` to edit files in the PSS Orderbook GitHub repository, which you should have already cloned into your Linux instance. This activity includes tasks such as identifying incorrect prices, adding new data, and using `vi` commands to search and replace text.
 
 **Key Features:**
+- Identifying and correcting incorrect prices in a CSV file.
+- Adding new data to an existing CSV file.
+- Using `vi` shortcuts to search and replace text.
+- Practising `vi` navigation and editing commands.
 
 **Files:**
+- [Activity - Editing Files in Linux](Activities/Activity%20-%20Editing%20Files%20in%20Linux.md)
 
 ### Activity: Fix Log Analysis
 
