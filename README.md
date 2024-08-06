@@ -43,16 +43,17 @@ The training program covers a wide range of topics essential for an SRE, includi
 ### Activity: Set up a Personal GitHub Repository
 
 **Description:** 
-This activity involves creating a personal GitHub repository to store and manage your code and projects. Setting up a GitHub repository is a fundamental step for version control and collaboration in software development. This activity covers the steps to create a repository, initialize it with a README file, and make the first commit.
+This activity involves [creating a personal GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) to store and manage your code and projects. Setting up a GitHub repository is a fundamental step for version control and collaboration in software development. This activity covers the steps to create a repository, initialize it with a README file, and make the first commit.
 
 **Key Features:**
-- Creation of a new GitHub repository.
+- [Creation of a new GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo).
 - Initialization of the repository with a README file.
 - Making the first commit to the repository.
 - Basic understanding of version control using Git and GitHub.
 
 **Files:** 
-- README.md (this file)
+- [README.md](README.md) (this file)
+
 
 ### Activity: Create a GitHub Personal Access Token
 
