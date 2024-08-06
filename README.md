@@ -113,7 +113,7 @@ Complete the following activities using a Linux interface, using skills covered 
 - Basic system information commands (e.g., `uname`, `top`, `df`).
 
 **Files:**
-- [Activity - Linux Exercises - Basic Commands](activities/Activity%20-%20Linux%20Exercises%20-%20Basic%20Commands.docx)
+- [Activity - Linux Exercises - Basic Commands](Activities/Activity%20-%20Linux%20Exercises%20-%20Basic%20Commands.docx)
 
 
 ### Activity: Linux Tools & Navigation
