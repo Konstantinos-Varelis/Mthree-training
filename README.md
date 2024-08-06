@@ -339,11 +339,19 @@ This activity involves analysing log files to identify issues, patterns, and pot
 
 ### Activity: File Systems in Linux
 
-**Description:** 
+**Description:**
+This activity involves using Linux to examine your system and individual file storage, as well as compress files you create. You will work with file systems, create and manage directories, list and sort files, and compress and decompress files.
 
 **Key Features:**
+- Creating and managing directories.
+- Listing and sorting files.
+- Checking disk usage and free space.
+- Creating and extracting tarballs.
+- Compressing and decompressing files.
 
 **Files:**
+- [Memory Report Folder](memory_report/)
+
 
 ### Activity: Linux Jobs
 
