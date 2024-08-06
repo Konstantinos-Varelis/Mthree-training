@@ -6,10 +6,20 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
 
 - [Introduction](#introduction)
 - [Course Overview](#course-overview)
-- [Projects](#projects)
-  - [Project 1: ](#project-1)
-  - [Project 2: ](#project-2)
-  - [Project 3: ](#project-3)
+- [Activities](#activities)
+  - [Set up a Personal GitHub Repository](#activity-set-up-a-personal-github-repository)
+  - [Create a GitHub Personal Access Token](#activity-create-a-github-personal-access-token)
+  - [AWS EC2 Setup](#activity-aws-ec2-setup)
+  - [Linux Exercises: Basic Commands](#activity-linux-exercises-basic-commands)
+  - [Linux Tools & Navigation](#activity-linux-tools--navigation)
+  - [Files and Permissions](#activity-files-and-permissions)
+  - [File Management & Git](#activity-file-management--git)
+  - [Editing Files in Linux](#activity-editing-files-in-linux)
+  - [Fix Log Analysis](#activity-fix-log-analysis)
+  - [File Systems in Linux](#activity-file-systems-in-linux)
+  - [Linux Jobs](#activity-linux-jobs)
+  - [Scheduling and Automation](#activity-scheduling-and-automation)
+  - [Using Vi](#activity-using-vi)
 - [Exercises](#exercises)
 - [Notes](#notes)
 - [Resources](#resources)
@@ -22,57 +32,118 @@ This repository documents my journey through the Mthree training program to beco
 
 The training program covers a wide range of topics essential for an SRE, including but not limited to:
 
- - 1
- - 2
- - 3
- - 4
- - 5
+1. Basic Concepts and Terminology
+2. Git Basics
+3. Linux Fundamentals
+4. Basic Tools and Navigation
+5. Monitoring
 
-## Projects
+## Activities
 
-### Project 1: 
-
-**Description:** 
-
-**Key Features:**
-
-
-**Files:**
-
-### Project 2: 
+### Activity: Set up a Personal GitHub Repository
 
 **Description:** 
 
 **Key Features:**
 
-
 **Files:**
 
-### Project 3: 
+### Activity: Create a GitHub Personal Access Token
 
 **Description:** 
 
 **Key Features:**
 
+**Files:**
+
+### Activity: AWS EC2 Setup
+
+**Description:** 
+
+**Key Features:**
 
 **Files:**
 
+### Activity: Linux Exercises: Basic Commands
 
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Linux Tools & Navigation
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Files and Permissions
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: File Management & Git
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Editing Files in Linux
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Fix Log Analysis
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: File Systems in Linux
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Linux Jobs
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Scheduling and Automation
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
+
+### Activity: Using Vi
+
+**Description:** 
+
+**Key Features:**
+
+**Files:**
 
 ## Exercises
 
-This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
-
-**Files:**
-
-## Notes
-
-Personal notes and summaries of important concepts covered during the training.
-
-**Files:**
-
-
-## Resources
-
-A list of additional resources that were helpful throughout the training program.
-
+This section contains various exercises that I completed during the training. Each exercise is
