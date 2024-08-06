@@ -324,11 +324,18 @@ In this activity, you will practise using `vi` to edit files in the PSS Orderboo
 
 ### Activity: Fix Log Analysis
 
-**Description:** 
+**Description:**
+This activity involves analysing log files to identify issues, patterns, and potential fixes. It includes tasks such as reading log files, searching for specific keywords, filtering log entries based on time, and extracting relevant information. Detailed explanations and examples can be found in the [Linux Log Management documentation](https://www.guru99.com/log-management.html).
 
 **Key Features:**
+- Reading log files using `cat`, `less`, and `tail`.
+- Searching for specific keywords using `grep`.
+- Filtering log entries based on time using `awk` or `sed`.
+- Extracting relevant information and summarising findings.
 
 **Files:**
+- [Logs Folder](logs/)
+
 
 ### Activity: File Systems in Linux
 
