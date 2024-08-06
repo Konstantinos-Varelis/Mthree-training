@@ -56,20 +56,7 @@
     cd ~
     ```
     _Output:_
-    ```
-    avengers.konstantinos.txt  fixlog20240806102001.log  Konstantinos-Varelis
-    cron_test.log              fixlog20240806104001.log  Music
-    Desktop                    fixlog20240806110001.log  newOrders.Konstantinos.log
-    Documents                  fixlog20240806112001.log  newOrders.log
-    Downloads                  fixlog20240806114001.log  Pictures
-    fixGenerator.sh            fixlog20240806114555.log  Public
-    fixlog20240805120001.log   fixlog20240806114601.log  scripts
-    fixlog20240805123001.log   fixlog20240806120001.log  snap
-    fixlog20240805130001.log   fixlog20240806122001.log  Templates
-    fixlog20240805150001.log   fixlog20240806124001.log  Videos
-    fixlog20240805153001.log   fixlog20240806142001.log
-    fixlog20240806100001.log   fixlog20240806144001.log
-    ```
+    No output
 
 ## Part B: Working with Git
 
