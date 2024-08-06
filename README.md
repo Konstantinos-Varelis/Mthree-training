@@ -86,11 +86,35 @@ This activity involves setting up an AWS EC2 instance, which is a virtual server
 
 ### Activity: Linux Exercises: Basic Commands
 
-**Description:** 
+**Description:**
+This activity covers fundamental Linux commands essential for navigating and managing a Linux environment. These commands form the basis of everyday operations in Linux, such as file management, system navigation, and basic system information retrieval. Detailed explanations and examples can be found in the [Linux Command Line documentation](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
+
+Complete the following activities using a Linux interface, using skills covered in Linux Lesson 2:
+
+1. Run a command to find your current location on the server.
+2. Change directory from your current location to /var/log.
+3. Go back up a directory.
+4. Find your current location again.
+5. List all the files in the current directory.
+6. Now list all the files with the long listing.
+7. Now list all the files with the long listing in reverse order, with the newest appearing at the bottom of your screen.
+8. Change to root directory.
+9. Change back to your home directory.
+10. Go up a level in directory structure.
+11. Find out more information about the ls command.
+12. Go back to /var.
+13. Show the contents of this directory with details reverse sorted by size (you may have to use `man` to help).
+14. Find out the hardware version you are running.
 
 **Key Features:**
+- [Basic navigation commands](https://ubuntu.com/tutorials/command-line-for-beginners#2-navigating-the-command-line) (e.g., `cd`, `ls`).
+- File manipulation commands (e.g., `cp`, `mv`, `rm`).
+- Viewing file contents (e.g., `cat`, `less`, `head`, `tail`).
+- Basic system information commands (e.g., `uname`, `top`, `df`).
 
 **Files:**
+- [Activity - Linux Exercises - Basic Commands](activities/Activity%20-%20Linux%20Exercises%20-%20Basic%20Commands.docx)
+
 
 ### Activity: Linux Tools & Navigation
 
