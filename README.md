@@ -227,47 +227,47 @@ This activity focuses on managing files and directories in a Linux environment a
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/TheSoftwareGuild/git-collection-display.git
+    git clone https://github.com/TheSoftware-Guild/pss-orderbook-deploy.git
     ```
 
-2. Go to the newly created `git-collection-display` directory:
+2. Go to the newly created `pss-orderbook-deploy` directory:
     ```bash
-    cd git-collection-display
+    cd pss-orderbook-deploy
     ```
 
-3. Navigate to the folder `collection/_data/sets`:
+3. Navigate to the folder `src/linux_activities/Activity2`:
     ```bash
-    cd collection/_data/sets
+    cd src/linux_activities/Activity2
     ```
 
 #### Searching Files
 
-1. Display the contents of the file `comic_comfort_services.txt`:
+1. Display the contents of the file `stock_investments.txt`:
     ```bash
-    cat comic_comfort_services.txt
+    cat stock_investments.txt
     ```
 
-2. Display the first line of the file:
+2. Display the first five lines of the file:
     ```bash
-    head -n 1 comic_comfort_services.txt
+    head -5 stock_investments.txt
     ```
 
-3. Display the first three lines of the file:
+3. Display the five last lines of the file:
     ```bash
-    head -n 3 comic_comfort_services.txt
+    tail -5 stock_investments.txt
     ```
 
-4. Display how many times the word GOOD is used:
+4. Display how many times the word GOOG is used:
     ```bash
-    grep -c GOOD comic_comfort_services.txt
+    grep GOOG stock_investments.txt | wc -l
     ```
 
-5. Display how many times the word BAD is used:
+5. Display how many lines contain the word T:
     ```bash
-    grep -c BAD comic_comfort_services.txt
+    grep -wc T stock_investments.txt
     ```
 
-6. List the files that contain the word SPY in any case:
+6. List the files that contain the word SPY in any letter case:
     ```bash
     grep -i SPY *
     ```
@@ -277,24 +277,24 @@ This activity focuses on managing files and directories in a Linux environment a
     grep -L SPY *
     ```
 
-8. Find files that contain the word “data” in their name:
+8. Find all files containing the word “data” in their name:
     ```bash
-    find . -name "*data*"
+    find . -type f -name "*data*"
     ```
 
-9. Change permissions on the file `comic_comfort_services.txt` to allow read and write for the user, and read-only for group and others:
+9. Find folders named error:
     ```bash
-    chmod 644 comic_comfort_services.txt
+    find . -type d -name error
     ```
 
-10. List all the access control permissions for the file:
+10. Change permissions on all files that contain the word "data" so that the files are read-only for group and other:
     ```bash
-    ls -l comic_comfort_services.txt
+    sudo find . -type f -name "*data*" -exec chmod 744 {} \;
     ```
 
-11. Locate and remove write permission for all users on the file named `SPYGRD.tab`:
+11. Locate and remove write permission for all users on the file named `WFC/data.txt`:
     ```bash
-    chmod a-w SPYGRD.tab
+    chmod a-w WFC/data.txt
     ```
 
 **Key Features:**
@@ -306,6 +306,7 @@ This activity focuses on managing files and directories in a Linux environment a
 
 **Files:**
 - [Activity - File Management & Git](Activities/Activity%20-%20File%20Management%20&%20Git.md)
+
 
 ### Activity: Editing Files in Linux
 
