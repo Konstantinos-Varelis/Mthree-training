@@ -12,7 +12,6 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [AWS EC2 Setup](#activity-aws-ec2-setup)
   - [Linux Exercises: Basic Commands](#activity-linux-exercises-basic-commands)
   - [Linux Tools & Navigation](#activity-linux-tools--navigation)
-  - [Files and Permissions](#activity-files-and-permissions)
   - [File Management & Git](#activity-file-management--git)
   - [Editing Files in Linux](#activity-editing-files-in-linux)
   - [Fix Log Analysis](#activity-fix-log-analysis)
@@ -176,15 +175,6 @@ Complete the following activities using a Linux interface:
 
 **Files:**
 - [Activity - Linux Tools & Navigation](Activities/Activity%20-%20Linux%20Tools%20&%20Navigation.md)
-
-
-### Activity: Files and Permissions
-
-**Description:** 
-
-**Key Features:**
-
-**Files:**
 
 ### Activity: File Management & Git
 
