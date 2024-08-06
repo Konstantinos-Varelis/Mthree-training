@@ -178,11 +178,134 @@ Complete the following activities using a Linux interface:
 
 ### Activity: File Management & Git
 
-**Description:** 
+**Description:**
+This activity focuses on managing files and directories in a Linux environment along with basic Git operations. It includes tasks such as creating, moving, and deleting files and directories, as well as initializing a Git repository, committing changes, and pushing to a remote repository. Detailed explanations and examples can be found in the [Linux File Management documentation](https://www.guru99.com/linux-file-directory-management.html) and [Git documentation](https://git-scm.com/doc).
+
+#### Part A: Managing Files and Folders
+
+1. Create a folder in your home directory using your name as the name of the folder:
+    ```bash
+    mkdir <yourname>
+    ```
+
+2. Move into the folder:
+    ```bash
+    cd <yourname>
+    ```
+
+3. Create an empty file:
+    ```bash
+    touch test.txt
+    ```
+
+4. Create a new folder in this folder called `myfolder`:
+    ```bash
+    mkdir myfolder
+    ```
+
+5. Move the empty file you created into `myfolder`:
+    ```bash
+    mv test.txt myfolder
+    ```
+
+6. Create a backup of the file:
+    ```bash
+    cp myfolder/test.txt myfolder/test.bkp
+    ```
+
+7. Remove the backup file:
+    ```bash
+    rm myfolder/test.bkp
+    ```
+
+8. Go back to your home directory:
+    ```bash
+    cd ~
+    ```
+
+#### Part B: Working with Git
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/TheSoftwareGuild/git-collection-display.git
+    ```
+
+2. Go to the newly created `git-collection-display` directory:
+    ```bash
+    cd git-collection-display
+    ```
+
+3. Navigate to the folder `collection/_data/sets`:
+    ```bash
+    cd collection/_data/sets
+    ```
+
+#### Searching Files
+
+1. Display the contents of the file `comic_comfort_services.txt`:
+    ```bash
+    cat comic_comfort_services.txt
+    ```
+
+2. Display the first line of the file:
+    ```bash
+    head -n 1 comic_comfort_services.txt
+    ```
+
+3. Display the first three lines of the file:
+    ```bash
+    head -n 3 comic_comfort_services.txt
+    ```
+
+4. Display how many times the word GOOD is used:
+    ```bash
+    grep -c GOOD comic_comfort_services.txt
+    ```
+
+5. Display how many times the word BAD is used:
+    ```bash
+    grep -c BAD comic_comfort_services.txt
+    ```
+
+6. List the files that contain the word SPY in any case:
+    ```bash
+    grep -i SPY *
+    ```
+
+7. List the files that do not contain the word SPY:
+    ```bash
+    grep -L SPY *
+    ```
+
+8. Find files that contain the word “data” in their name:
+    ```bash
+    find . -name "*data*"
+    ```
+
+9. Change permissions on the file `comic_comfort_services.txt` to allow read and write for the user, and read-only for group and others:
+    ```bash
+    chmod 644 comic_comfort_services.txt
+    ```
+
+10. List all the access control permissions for the file:
+    ```bash
+    ls -l comic_comfort_services.txt
+    ```
+
+11. Locate and remove write permission for all users on the file named `SPYGRD.tab`:
+    ```bash
+    chmod a-w SPYGRD.tab
+    ```
 
 **Key Features:**
+- Creating, moving, and deleting files and directories using `touch`, `mv`, and `rm`.
+- Initializing a Git repository with `git init`.
+- Adding files to the staging area with `git add`.
+- Committing changes with `git commit`.
+- Pushing changes to a remote repository with `git push`.
 
 **Files:**
+- [Activity - File Management & Git](Activities/Activity%20-%20File%20Management%20&%20Git.md)
 
 ### Activity: Editing Files in Linux
 
