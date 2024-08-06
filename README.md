@@ -146,4 +146,18 @@ The training program covers a wide range of topics essential for an SRE, includi
 
 ## Exercises
 
-This section contains various exercises that I completed during the training. Each exercise is
+This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
+
+**Files:**
+
+## Notes
+
+Personal notes and summaries of important concepts covered during the training.
+
+**Files:**
+
+## Resources
+
+A list of additional resources that were helpful throughout the training program.
+
+
