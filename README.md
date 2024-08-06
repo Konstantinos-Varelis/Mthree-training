@@ -334,7 +334,7 @@ This activity involves analysing log files to identify issues, patterns, and pot
 - Extracting relevant information and summarising findings.
 
 **Files:**
-- [Logs Folder](logs/)
+- [Logs Folder](Logs/)
 
 
 ### Activity: File Systems in Linux
