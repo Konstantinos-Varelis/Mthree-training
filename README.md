@@ -355,11 +355,17 @@ This activity involves using Linux to examine your system and individual file st
 
 ### Activity: Linux Jobs
 
-**Description:** 
+**Description:**
+In this activity, you will learn how to manage jobs in Linux using commands such as `bg`, `fg`, `jobs`, and `kill`. You will practice running jobs in the foreground and background, switching between them, and terminating jobs. Additionally, you will learn to use the `screen` command to manage multiple terminal sessions.
 
 **Key Features:**
+- Running jobs in the foreground and background.
+- Viewing and managing background jobs.
+- Terminating and bringing jobs back to the foreground.
+- Using the `screen` command to manage multiple terminal sessions.
 
 **Files:**
+- [Activity - Linux Jobs](Activities/Activity%20-%20Linux%20Jobs.md)
 
 ### Activity: Scheduling and Automation
 
