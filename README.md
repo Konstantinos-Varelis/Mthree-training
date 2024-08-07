@@ -19,7 +19,6 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [Linux Jobs](#activity-linux-jobs)
   - [Scheduling and Automation](#activity-scheduling-and-automation)
   - [Using Vi](#activity-using-vi)
-- [Exercises](#exercises)
 - [Notes](#notes)
 - [Resources](#resources)
 
