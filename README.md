@@ -369,12 +369,17 @@ In this activity, you will learn how to manage jobs in Linux using commands such
 
 ### Activity: Scheduling and Automation
 
-**Description:** 
+**Description:**
+In this activity, you will practice writing some `cron` jobs using the `fixGenerator` script as the command to execute. You will learn how to schedule tasks to run at specific times and intervals using `cron`.
 
 **Key Features:**
+- Installing and enabling `cron` on an Amazon Linux2 instance.
+- Scheduling tasks to run at various times and frequencies.
+- Copying and managing `cron` job configurations.
 
 **Files:**
-
+- [Activity - Scheduling and Automation](Activities/Activity%20-%20Scheduling%20and%20Automation.md)
+  
 ### Activity: Using Vi
 
 **Description:** 
