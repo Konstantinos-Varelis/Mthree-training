@@ -382,13 +382,17 @@ In this activity, you will practice writing some `cron` jobs using the `fixGener
   
 ### Activity: Using Vi
 
-**Description:** 
+**Description:**
+This activity involves using `vi` to edit files in the PSS Orderbook GitHub repository, which you should have already cloned into your Linux instance. You will practice editing text files, running word counts, replacing text, and managing lines within files.
 
 **Key Features:**
+- Editing files with `vi`.
+- Running word counts and replacing text.
+- Practicing `vi` navigation and editing commands.
 
 **Files:**
+- [Using Vi Folder](Using%20Vi/)
 
-## Exercises
 
 This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
 
