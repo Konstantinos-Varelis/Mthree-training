@@ -333,7 +333,7 @@ This activity involves analysing log files to identify issues, patterns, and pot
 - Extracting relevant information and summarising findings.
 
 **Files:**
-- [Logs Folder](Logs/)
+- [Logs Folder](Activities/Logs/)
 
 
 ### Activity: File Systems in Linux
@@ -349,7 +349,7 @@ This activity involves using Linux to examine your system and individual file st
 - Compressing and decompressing files.
 
 **Files:**
-- [Memory Report Folder](memory_report/)
+- [Memory Report Folder](Activities/memory_report/)
 
 
 ### Activity: Linux Jobs
@@ -390,7 +390,7 @@ This activity involves using `vi` to edit files in the PSS Orderbook GitHub repo
 - Practicing `vi` navigation and editing commands.
 
 **Files:**
-- [Using Vi Folder](Using%20Vi/)
+- [Using Vi Folder](Activities/Using%20Vi/)
 - [Activity - Using Vi](Activities/Activity%20-%20Using%20Vi.md)
 
 This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
