@@ -409,7 +409,7 @@ This activity involves using various Linux commands to perform system administra
 **Files:**
 - [Activity - Linux Networking and Sys Admin](Activities/Activity%20-%20Linux%20Networking%20and%20Sys%20Admin.md)
 
-### Linux Advanded Commands
+### Activity: Linux Advanded Commands
 
 **Description:**
 
