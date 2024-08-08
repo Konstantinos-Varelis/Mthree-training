@@ -20,6 +20,7 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [Scheduling and Automation](#activity-scheduling-and-automation)
   - [Using Vi](#activity-using-vi)
   - [Linux Networking and Sys Admin](#activity-Linux-Networking-and-Sys-Admin)
+  - [Linux Advanded Commands](#activity-Linux-Advanced-Commands)
 - [Notes](#notes)
 - [Resources](#resources)
 
@@ -397,6 +398,21 @@ This activity involves using `vi` to edit files in the PSS Orderbook GitHub repo
 ### Activity: Linux Networking and Sys Admin
 
 **Description:**
+This activity involves using various Linux commands to perform system administration tasks, including memory management, inode management, and network diagnostics. You will learn to monitor processes, use network diagnostic tools, and manage system resources effectively.
+
+**Key Features:**
+- Monitoring memory usage and processes.
+- Understanding and managing inodes.
+- Using network diagnostic tools like `ping`, `nslookup`, `traceroute`, and `dig`.
+- Managing open ports and monitoring network traffic.
+
+**Files:**
+- [Activity - Linux Networking and Sys Admin](linux_networking_sys_admin/Activity%20-%20Linux%20Networking%20and%20Sys%20Admin.md)
+
+
+### Linux Advanded Commands
+
+**Description:**
 
 
 **Key Features:**
@@ -404,7 +420,7 @@ This activity involves using `vi` to edit files in the PSS Orderbook GitHub repo
 
 **Files:**
 - 
-  
+
 This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
 
 **Files:**
