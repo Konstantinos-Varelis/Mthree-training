@@ -409,7 +409,7 @@ This activity involves using various Linux commands to perform system administra
 **Files:**
 - [Activity - Linux Networking and Sys Admin](Activities/Activity%20-%20Linux%20Networking%20and%20Sys%20Admin.md)
 
-### Activity: Advanced Commands
+### Activity: Linux Advanced Commands
 
 **Description:**
 This activity involves using various Linux commands to perform a series of tasks involving file manipulation, text processing, and log management. You will learn to create, modify, and analyze log files using a variety of Linux tools.
