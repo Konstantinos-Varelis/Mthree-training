@@ -424,7 +424,7 @@ This activity involves using various Linux commands to perform a series of tasks
 - Comparing differences between files with `diff`.
 
 **Files:**
-- [Activity - Advanced Commands](Activities/Activity%20-%20Linux%20Advanced%20Commands.md)
+- [Activity - Linux Advanced Commands](Activities/Activity%20-%20Linux%20Advanced%20Commands.md)
 
 
 This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
