@@ -19,6 +19,7 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [Linux Jobs](#activity-linux-jobs)
   - [Scheduling and Automation](#activity-scheduling-and-automation)
   - [Using Vi](#activity-using-vi)
+  - [Linux Networking and Sys Admin](#activity-Linux-Networking-and-Sys-Admin)
 - [Notes](#notes)
 - [Resources](#resources)
 
@@ -393,6 +394,17 @@ This activity involves using `vi` to edit files in the PSS Orderbook GitHub repo
 - [Using Vi Folder](Activities/Using%20Vi/)
 - [Activity - Using Vi](Activities/Activity%20-%20Using%20Vi.md)
 
+### Linux Networking and Sys Admin
+
+**Description:**
+
+
+**Key Features:**
+- 
+
+**Files:**
+- 
+  
 This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
 
 **Files:**
