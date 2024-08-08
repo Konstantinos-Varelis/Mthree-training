@@ -427,15 +427,24 @@ This activity involves using various Linux commands to perform a series of tasks
 **Files:**
 - [Activity - Linux Advanced Commands](Activities/Activity%20-%20%20Linux%20Advanced%20Commands.md)
 
-### Activity: File Permissions in Linux
+## Activity: File Permissions in Linux
 
 **Description:**
 
+This activity guides you through the process of managing file permissions in a Linux environment. You will learn how to create and manage user accounts, assign permissions to files and directories, and understand the significance of different permission settings. The activity involves practical exercises such as creating a new user, modifying group memberships, and using commands to control access to files and directories.
+
 **Key Features:**
-- 
+- **User Management:** Create and configure a new user account.
+- **Password Management:** Set and expire passwords for the new user.
+- **Sudoers Configuration:** Add the new user to the sudoers file to grant administrative privileges.
+- **Directory and File Management:** Create directories and files, change ownership, and modify permissions.
+- **Group Management:** Create and manage user groups, and assign group ownership to directories.
+- **Permission Settings:** Use `chmod` to change file and directory permissions, allowing different levels of access.
+- **Script Execution:** Create and manage executable scripts with controlled permissions.
 
 **Files:**
 - [Activity - File Permissions in Linux](Activities/Activity%20-%20File%20Permissions%20in%20Linux.md)
+
 
 ## Notes
 
