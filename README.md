@@ -21,6 +21,7 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [Using Vi](#activity-using-vi)
   - [Linux Networking and Sys Admin](#activity-Linux-Networking-and-Sys-Admin)
   - [Linux Advanded Commands](#activity-Linux-Advanced-Commands)
+  - [File Permissions in Linux](#activity-File-Permissions-in-Linux)
 - [Notes](#notes)
 - [Resources](#resources)
 
@@ -426,10 +427,15 @@ This activity involves using various Linux commands to perform a series of tasks
 **Files:**
 - [Activity - Linux Advanced Commands](Activities/Activity%20-%20%20Linux%20Advanced%20Commands.md)
 
+### Activity: File Permissions in Linux
 
-This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
+**Description:**
+
+**Key Features:**
+- 
 
 **Files:**
+- [Activity - File Permissions in Linux](Activities/Activity%20-%20File%20Permissions%20in%20Linux.md)
 
 ## Notes
 
