@@ -394,7 +394,7 @@ This activity involves using `vi` to edit files in the PSS Orderbook GitHub repo
 - [Using Vi Folder](Activities/Using%20Vi/)
 - [Activity - Using Vi](Activities/Activity%20-%20Using%20Vi.md)
 
-### Linux Networking and Sys Admin
+### Activity: Linux Networking and Sys Admin
 
 **Description:**
 
