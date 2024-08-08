@@ -409,16 +409,23 @@ This activity involves using various Linux commands to perform system administra
 **Files:**
 - [Activity - Linux Networking and Sys Admin](Activities/Activity%20-%20Linux%20Networking%20and%20Sys%20Admin.md)
 
-### Activity: Linux Advanced Commands
+### Activity: Advanced Commands
 
 **Description:**
-
+This activity involves using various Linux commands to perform a series of tasks involving file manipulation, text processing, and log management. You will learn to create, modify, and analyze log files using a variety of Linux tools.
 
 **Key Features:**
-- 
+- Creating and organizing directories.
+- Using `sed` for text replacement in files.
+- Extracting specific log entries using `grep`.
+- Combining log entries into new files.
+- Processing log files with `awk` and `sed`.
+- Creating comma-separated values (CSV) files.
+- Comparing differences between files with `diff`.
 
 **Files:**
-- 
+- [Activity - Advanced Commands](Activities/Activity%20-%20Advanced%20Commands.md)
+
 
 This section contains various exercises that I completed during the training. Each exercise is designed to reinforce the concepts learned in the lectures.
 
