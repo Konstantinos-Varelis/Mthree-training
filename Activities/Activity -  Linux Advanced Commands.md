@@ -24,14 +24,14 @@
 2. **Move the log output from the fixGenerator script into the logs directory:**
     Be sure the script has finished before doing this.
     ```bash
-    mv fixlog* logs/.
+    mv fixlog2024039823001.log logs/.
     ```
     _Output:_
     No output
 
 3. **Replace all instances of MTHREE in the file with M3 and put the output into a new file named fixlog2.log in the logs directory:**
     ```bash
-    cat fixlog*.log | sed 's/MTHREE/M3/g' > logs/fixlog2.log
+    cat fixlog2024039823001.log | sed 's/MTHREE/M3/g' > logs/fixlog2.log
     ```
     _Output:_
     No output
@@ -71,7 +71,7 @@
 
 9. **Add a row of column headers to the file:**
     The headers should be Symbol, OrderID, Side, Price, Qty, and ExecID.
-    Save the file as `<yourname>.module10.csv` in the location specified by your instructor.
+    Save the file as `KonstantinosVarelis.module10.csv` in the location specified by your instructor.
 
 10. **Make a copy of the cancels file and name it cancels2.log:**
     ```bash
