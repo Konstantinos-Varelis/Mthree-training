@@ -22,6 +22,7 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [Linux Networking and Sys Admin](#activity-Linux-Networking-and-Sys-Admin)
   - [Linux Advanded Commands](#activity-Linux-Advanced-Commands)
   - [File Permissions in Linux](#activity-File-Permissions-in-Linux)
+  - [Linux Variables](#activity-Linux-Veriables)
 - [Notes](#notes)
 - [Resources](#resources)
 
@@ -445,7 +446,17 @@ This activity guides you through the process of managing file permissions in a L
 **Files:**
 - [Activity - File Permissions in Linux](Activities/Activity%20-%20File%20Permissions%20in%20Linux.md)
 
+## Activity: Linux Variables
 
+**Description:**
+
+
+
+**Key Features:**
+
+
+**Files:**
+- [Activity - Linux Variables](Activities/Activity%20-%20Linux%20Variables.md)
 ## Notes
 
 Personal notes and summaries of important concepts covered during the training.
