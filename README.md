@@ -450,13 +450,21 @@ This activity guides you through the process of managing file permissions in a L
 
 **Description:**
 
-
+This activity focuses on understanding and managing environment variables in a Linux environment. You will learn how to create, modify, and delete environment variables, understand the significance of different variable types, and explore the impact of these variables on the system and user sessions. This activity includes practical exercises such as creating environment variables, modifying shell profiles, and managing variables within scripts.
 
 **Key Features:**
-
+- **Environment Variable Management:** Learn how to create, export, and modify environment variables.
+- **Profile Configuration:** Modify the `~/.bash_profile` or `~/.bashrc` files to set persistent environment variables.
+- **Script Execution:** Create and manage scripts that utilize environment variables.
+- **PATH Management:** Understand and modify the `PATH` variable to include custom directories.
+- **Variable Scope:** Explore the differences between local and exported variables, and how they affect subprocesses.
+- **Aliases and Functions:** Create and manage shell aliases and functions using environment variables.
+- **Session Management:** Understand how environment variables persist across different sessions and how to manage them.
 
 **Files:**
 - [Activity - Linux Variables](Activities/Activity%20-%20Linux%20Variables.md)
+
+
 ## Notes
 
 Personal notes and summaries of important concepts covered during the training.
