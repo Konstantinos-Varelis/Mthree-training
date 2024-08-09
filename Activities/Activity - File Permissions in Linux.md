@@ -1,111 +1,169 @@
-# 1. Create a new user
-sudo adduser orderbook
+# Activity: File Permissions in Linux
 
-# 2. Set the user's password
-echo 'orderbook:Konstantinos1' | sudo chpasswd
+## Part A: Managing Users and Permissions
 
-# 3. Expire the password
-sudo passwd --expire orderbook
-# Output: passwd: password changed.
+1. **Create a new user:**
+    ```bash
+    sudo adduser orderbook
+    ```
+    _Output:_
+    No output
 
-# 4. Edit sudoers file
-sudo visudo
-# No output (sudoers file opened)
+2. **Set the user's password:**
+    ```bash
+    echo 'orderbook:Konstantinos1' | sudo chpasswd
+    ```
+    _Output:_
+    No output
 
-sudo EDITOR=vim visudo
-# No output (sudoers file opened in vim)
+3. **Expire the password:**
+    ```bash
+    sudo passwd --expire orderbook
+    ```
+    _Output:_
+    ```
+    passwd: password changed.
+    ```
 
-# 5. Switch to the new user and change the password
-su orderbook
-# Output: You are required to change your password immediately (administrator enforced).
-# Changing password for orderbook.
-# Current password:
-# New password:
-# Retype new password:
+4. **Edit the sudoers file:**
+    ```bash
+    sudo visudo
+    sudo EDITOR=vim visudo
+    ```
+    _Output:_
+    No output
 
-# 6. Create a directory as the new user
-mkdir /home/test
-# Output: mkdir: cannot create directory ‘/home/test’: Permission denied
+5. **Switch to the new user and change the password:**
+    ```bash
+    su orderbook
+    ```
+    _Output:_
+    ```
+    You are required to change your password immediately (administrator enforced).
+    Changing password for orderbook.
+    Current password:
+    New password:
+    Retype new password:
+    ```
 
-sudo mkdir /home/test
-# No output (directory created successfully)
+6. **Create a directory as the new user:**
+    ```bash
+    mkdir /home/test
+    ```
+    _Output:_
+    ```
+    mkdir: cannot create directory ‘/home/test’: Permission denied
+    ```
 
-# 7. List directory contents
-ls -l /home
-# Output:
-# total 12
-# drwxr-x--- 18 konstantinos-varelis konstantinos-varelis 4096 Aug  9 09:30 konstantinos-varelis
-# drwxr-x---  2 orderbook            orderbook            4096 Aug  8 15:09 orderbook
-# drwxr-xr-x  2 root                 root                 4096 Aug  9 09:30 test
+7. **Create the directory with elevated permissions:**
+    ```bash
+    sudo mkdir /home/test
+    ```
+    _Output:_
+    No output
 
-# 8. Add orderbook to admins group
-sudo groupadd admins
-# No output (group created successfully)
+8. **List directory contents:**
+    ```bash
+    ls -l /home
+    ```
+    _Output:_
+    ```
+    total 12
+    drwxr-x--- 18 konstantinos-varelis konstantinos-varelis 4096 Aug  9 09:30 konstantinos-varelis
+    drwxr-x---  2 orderbook            orderbook            4096 Aug  8 15:09 orderbook
+    drwxr-xr-x  2 root                 root                 4096 Aug  9 09:30 test
+    ```
 
-sudo usermod -a -G admins orderbook
-# No output (user added to group successfully)
+9. **Add the `orderbook` user to the `admins` group:**
+    ```bash
+    sudo groupadd admins
+    sudo usermod -a -G admins orderbook
+    groups orderbook
+    ```
+    _Output:_
+    ```
+    orderbook : orderbook users admins
+    ```
 
-groups orderbook
-# Output: orderbook : orderbook users admins
+10. **Switch to the new user and attempt to create a file:**
+    ```bash
+    su orderbook
+    touch /home/test/test.txt
+    ```
+    _Output:_
+    ```
+    touch: cannot touch '/home/test/test.txt': Permission denied
+    ```
 
-# 9. Switch to the new user and attempt to create a file
-su orderbook
-# No output (switched user)
+11. **Change group ownership and permissions of the directory:**
+    ```bash
+    sudo chgrp -R admins /home/test
+    sudo chmod 771 /home/test
+    sudo chmod g+w /home/test
+    ```
+    _Output:_
+    No output
 
-touch /home/test/test.txt
-# Output: touch: cannot touch '/home/test/test.txt': Permission denied
+12. **Create the file again:**
+    ```bash
+    touch /home/test/test.txt
+    ```
+    _Output:_
+    No output
 
-sudo chgrp -R admins /home/test
-# No output (group ownership changed successfully)
+13. **List contents of the `/home/test` directory:**
+    ```bash
+    ls -l /home/test
+    ```
+    _Output:_
+    ```
+    total 0
+    -rw-rw-r-- 1 orderbook orderbook 0 Aug  9 09:34 test.txt
+    ```
 
-sudo chmod 771 /home/test
-# No output (permissions changed successfully)
+14. **Change ownership of the directory:**
+    ```bash
+    sudo chown -R orderbook /home/test
+    ls -l /home/test
+    ```
+    _Output:_
+    ```
+    total 0
+    -rw-rw-r-- 1 orderbook orderbook 0 Aug  9 09:34 test.txt
+    ```
 
-sudo chmod g+w /home/test
-# No output (group write permissions added successfully)
+15. **Create a script in the directory:**
+    ```bash
+    cat << EOF > /home/test/orderbook.sh
+    echo "welcome to orderbook"
+    echo "Anyone can execute this script!!!"
+    echo "But not everyone can edit it"
+    EOF
+    ```
+    _Output:_
+    No output
 
-# 10. Create the file again
-touch /home/test/test.txt
-# No output (file created successfully)
+16. **Change script permissions:**
+    ```bash
+    chmod a+x+r /home/test/orderbook.sh
+    chmod o+x+r /home/test/orderbook.sh
+    chmod 755 /home/test/orderbook.sh
+    ```
+    _Output:_
+    No output
 
-ls -l /home/test
-# Output:
-# total 0
-# -rw-rw-r-- 1 orderbook orderbook 0 Aug  9 09:34 test.txt
+17. **Edit and execute the script:**
+    ```bash
+    vi /home/test/orderbook.sh
+    bash /home/test/orderbook.sh
+    ```
+    _Output:_
+    ```
+    welcome to orderbook
+    Anyone can execute this script!!!
+    But not everyone can edit it
+    ```
 
-# 11. Change ownership of the directory
-sudo chown -R orderbook /home/test
-# No output (ownership changed successfully)
+---
 
-ls -l /home/test
-# Output:
-# total 0
-# -rw-rw-r-- 1 orderbook orderbook 0 Aug  9 09:34 test.txt
-
-# 12. Create a script in the directory
-cat << EOF > /home/test/orderbook.sh
-echo "welcome to orderbook"
-echo "Anyone can execute this script!!!"
-echo "But not everyone can edit it"
-EOF
-# No output (script created successfully)
-
-# 13. Change script permissions
-chmod a+x+r /home/test/orderbook.sh
-# No output (permissions changed successfully)
-
-chmod o+x+r /home/test/orderbook.sh
-# No output (permissions changed successfully)
-
-chmod 755 /home/test/orderbook.sh
-# No output (permissions changed successfully)
-
-# 14. Edit and execute the script
-vi /home/test/orderbook.sh
-# No output (file opened in vi)
-
-bash /home/test/orderbook.sh
-# Output:
-# welcome to orderbook
-# Anyone can execute this script!!!
-# But not everyone can edit it
+This summarizes the commands used during the activity and their corresponding outputs.
