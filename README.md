@@ -22,7 +22,7 @@ Welcome to my training repository for the Site Reliability Engineer (SRE) positi
   - [Linux Networking and Sys Admin](#activity-Linux-Networking-and-Sys-Admin)
   - [Linux Advanded Commands](#activity-Linux-Advanced-Commands)
   - [File Permissions in Linux](#activity-File-Permissions-in-Linux)
-  - [Linux Variables](#activity-Linux-Veriables)
+  - [Linux Variables](#activity-Linux-Variables)
 - [Notes](#notes)
 - [Resources](#resources)
 
